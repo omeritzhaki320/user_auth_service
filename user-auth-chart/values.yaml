@@ -1,0 +1,12 @@
+app:
+  image:
+    repository: omeritzhaki/user-auth-service
+    tag: latest
+
+mysql:
+  image:
+    repository: omeritzhaki/custom-mysql-image
+    tag: latest
+  secretName: mysql-secret
+  rootPassword: cGFzc3dvcmQ
+
